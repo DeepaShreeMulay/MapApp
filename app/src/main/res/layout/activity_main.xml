@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/whwai"/>
+    </LinearLayout>
+    <!--
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="स्थान : "
+        android:typeface="serif"
+        android:textSize="15dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/textlatlng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="15dp"
+        android:layout_marginBottom="7dp"
+        android:background="@android:color/white"
+        android:textColor="@color/colorPrimary"
+        android:text="Hello World!"
+        android:maxLines="2"/>
+    -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Place : "
+        android:typeface="serif"
+        android:textSize="15dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textplace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="15dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_marginBottom="7dp"
+        android:background="@android:color/white"
+        android:textColor="@color/colorPrimary"
+        android:text="Hello World!"
+        android:maxLines="2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address : "
+        android:textColor="@android:color/white"
+        android:typeface="serif"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="7dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="Hello World!"
+        android:textSize="15dp"
+        android:background="@android:color/white"
+        android:textColor="@color/colorPrimary"
+        android:maxLines="4"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:typeface="serif"
+        android:textSize="15dp"
+        android:text="Description : "
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textdesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="7dp"
+        android:textSize="15dp"
+        android:background="@android:color/white"
+        android:textColor="@color/colorPrimary"
+        android:text="Hello World!"
+        android:maxLines="40"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="Website : "
+        android:typeface="serif"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/texturl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="15dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_marginBottom="7dp"
+        android:textSize="15dp"
+        android:background="@android:color/white"
+        android:textColor="@color/colorPrimary"
+        android:text="Hello World!"
+        android:maxLines="2"/>
+
+
+
+</LinearLayout>
+    </ScrollView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:text="#Note : Click on url to visit the website"
+            android:typeface="serif"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+</LinearLayout>

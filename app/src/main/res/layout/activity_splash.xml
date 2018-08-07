@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/background"></RelativeLayout>
+
+   <!-- <ImageView
+
+android:background="@drawable/splash_screen"
+    tools:context="com.vritti.myvworkbench.SplashActivity"
+
+
+        android:id="@+id/imageview_splash_vworkbench"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/margin_large"
+        android:layout_marginRight="@dimen/margin_large"
+        android:src="@drawable/back" />-->
+
+   <!-- <ImageView
+        android:id="@+id/imageview_splash_vritti"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/vritti_logo_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/margin_large"
+        android:background="#99A1F59D"
+        android:padding="@dimen/padding_small"
+        android:src="@drawable/vritti" />-->
+
+</RelativeLayout>
